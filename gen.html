@@ -1,0 +1,21 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+<h1>Something Circles</h1>
+<script>
+  function setup() {
+    createCanvas(600, 600);
+    background(0);
+    noStroke();
+    frameRate(200);
+    cursor(CROSS);
+  }
+
+  function draw() {
+    fill(random(255), random(255), mouseY);
+    ellipse(mouseX, mouseY, mouseX - 300);
+  }
+
+  function mousePressed() {
+    //saveCanvas('My Drawing'+frameCount, 'png')
+    background(255);
+  }
+</script>
