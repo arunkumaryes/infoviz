@@ -1,7 +1,6 @@
 h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    /* font-weight: 700; */
     margin-left: 250px;
     margin-top: 80px;
 }
@@ -9,7 +8,6 @@ h2 {
 h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
-    /* font-weight: 700; */
     margin-left: 250px;
     margin-right: 250px;
     margin-top: 80px;
@@ -18,20 +16,29 @@ h3 {
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    /* font-weight: 200; */
     margin-left: 250px;
-    margin-right: 250px;
-
-    
+    margin-right: 250px; 
+    color: rgb(39, 39, 39);   
 }
 
 li {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    /* font-weight: 300; */
     margin-left: 250px;
-    margin-right: 250px;
+    margin-right: 250px;   
+    color: rgb(39, 39, 39);   
 
-   
 }
-   
+img
+{    
+    margin-top: 50px; 
+    margin-left: 250px;
+    margin-right: 250px; 
+    margin-bottom: 100px;  
+
+}
+
+footer
+{
+    text-align: center;
+}
